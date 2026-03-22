@@ -1,5 +1,5 @@
 /* Rutinas básicas */
-#include "queue.h"
+#include "lista_reproduccion.h"
 
 void initialize(queue *q)
 {
