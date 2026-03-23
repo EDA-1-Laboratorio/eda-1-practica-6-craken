@@ -44,7 +44,7 @@ void enqueue(data d, queue *q)
 
 data head(const queue *q)
 {
-    _______________________ // <- Completa esta función
+     return q -> head -> d; // <- Completa esta función
 }
 
 boolean empty(const queue *q)
@@ -54,7 +54,7 @@ boolean empty(const queue *q)
 
 boolean full(const queue *q)
 {
-    _______________________ // <- Completa esta función
+    return ((boolean) (q -> cnt >= FULL)); // <- Completa esta función
 }
 
 int main(void)
