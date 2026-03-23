@@ -135,7 +135,7 @@ int main(void)
     }
     printf("\nLista de reproduccion\n");
     if(empty(&reproduccion)) {
-        printf("No se agregado nada a la lista.\n");
+        printf("No se agrego nada a la lista.\n");
     }
 
     while(!empty(&reproduccion)) {
